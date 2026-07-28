@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TLV320AIC3254")(type "KiCad")(uri "/home/anjang/Downloads/TLV320AIC3254IRHBT/KiCADv6/TLV320AIC3254.kicad_sym")(options "")(descr ""))
+  (lib (name "TPA3118D2DAPR")(type "KiCad")(uri "/home/anjang/Downloads/TPA3118D2DAPR/TPA3118D2DAPR.kicad_sym")(options "")(descr ""))
+)
