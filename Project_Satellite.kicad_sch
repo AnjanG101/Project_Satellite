@@ -4444,10 +4444,10 @@
 		(uuid "2ea540d7-72f4-444b-839f-1a731147b1e5")
 	)
 	(junction
-		(at 525.78 173.99)
+		(at 524.51 184.15)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "3066ddc4-faaf-45e0-97f0-2adc2a53498d")
+		(uuid "2f8c9a12-70f1-4f00-93db-fd9b494f0a2d")
 	)
 	(junction
 		(at 468.63 179.07)
@@ -4468,10 +4468,16 @@
 		(uuid "3a0415a7-d5fd-4ab1-b40a-425952e26e42")
 	)
 	(junction
-		(at 524.51 184.15)
+		(at 525.78 173.99)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "49f49556-8c1e-40c0-b985-7e006d0d84e4")
+		(uuid "4226c5bb-3436-457b-a63e-216a8b6b7221")
+	)
+	(junction
+		(at 388.62 222.25)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "46a16483-b24f-409f-9c06-7b96a08bca77")
 	)
 	(junction
 		(at 179.07 250.19)
@@ -4678,12 +4684,6 @@
 		(uuid "e257aa24-8343-4cd4-9356-2a91651d9617")
 	)
 	(junction
-		(at 388.62 234.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e4613c56-2867-4626-9807-e0b56d8fb492")
-	)
-	(junction
 		(at 254 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4738,14 +4738,6 @@
 		(uuid "fe2e9767-62b5-455c-b410-d1ae3b8aa7e0")
 	)
 	(no_connect
-		(at 171.45 229.87)
-		(uuid "01c4cf19-ec8b-4ceb-9bd7-163a6cbd3a9b")
-	)
-	(no_connect
-		(at 171.45 207.01)
-		(uuid "0b4cc1db-f916-4e2b-898f-759b76d9ad87")
-	)
-	(no_connect
 		(at 110.49 240.03)
 		(uuid "11b132ca-e1d5-44c4-a19c-ba09dd8b59b0")
 	)
@@ -4756,10 +4748,6 @@
 	(no_connect
 		(at 110.49 232.41)
 		(uuid "1b50558d-6d4d-4d04-9ca2-1db3ec35b207")
-	)
-	(no_connect
-		(at 171.45 204.47)
-		(uuid "229d6a17-43b5-40b4-b065-7fa7abe87521")
 	)
 	(no_connect
 		(at 252.73 208.28)
@@ -4774,10 +4762,6 @@
 		(uuid "3221c8f1-d700-4b88-a677-507232c08ceb")
 	)
 	(no_connect
-		(at 171.45 219.71)
-		(uuid "42bb9447-eecc-4188-9cfe-2275213cbe83")
-	)
-	(no_connect
 		(at 252.73 200.66)
 		(uuid "47f8469b-77d5-4b46-ac50-2b9100ff6e5c")
 	)
@@ -4786,28 +4770,12 @@
 		(uuid "60f16c6e-29c3-4e17-8c11-61790fd02b17")
 	)
 	(no_connect
-		(at 110.49 217.17)
-		(uuid "715d7de6-de63-457b-92e1-713aea1c0c86")
-	)
-	(no_connect
-		(at 110.49 212.09)
-		(uuid "7608d41a-1021-4dd1-a5fb-77f4cb49c748")
-	)
-	(no_connect
 		(at 252.73 220.98)
 		(uuid "78f7f8e8-71a5-4cea-aefe-90871aa922b9")
 	)
 	(no_connect
-		(at 110.49 227.33)
-		(uuid "7c81cf28-5cc0-4e4f-ab1d-2e291bad22e4")
-	)
-	(no_connect
 		(at 110.49 222.25)
 		(uuid "83d556a0-e20c-437c-9fa5-d5e71666fb3f")
-	)
-	(no_connect
-		(at 110.49 214.63)
-		(uuid "8591d88b-08ec-4e55-ad60-8c06b3f83876")
 	)
 	(no_connect
 		(at 171.45 227.33)
@@ -4830,24 +4798,8 @@
 		(uuid "afbb5fa6-f20a-4a3b-9c4e-694d1b4557a8")
 	)
 	(no_connect
-		(at 110.49 207.01)
-		(uuid "b52e2f4f-09cd-40e6-b785-891a0c8423ac")
-	)
-	(no_connect
 		(at 265.43 135.89)
 		(uuid "b9753097-509b-4b45-beac-08d2187a20d5")
-	)
-	(no_connect
-		(at 171.45 222.25)
-		(uuid "bda0d531-34ec-44a1-a223-e6cd2ef9cd9d")
-	)
-	(no_connect
-		(at 171.45 224.79)
-		(uuid "e25de643-4466-43da-82c3-a9ccd980942d")
-	)
-	(no_connect
-		(at 110.49 229.87)
-		(uuid "e6c53505-369a-4a4f-b4ea-d271abf0c974")
 	)
 	(no_connect
 		(at 339.09 203.2)
@@ -4858,16 +4810,8 @@
 		(uuid "f3e60188-e0e2-4961-b18f-2059ea669e3e")
 	)
 	(no_connect
-		(at 171.45 232.41)
-		(uuid "f62d6275-4ed3-40e5-905d-948397b6d151")
-	)
-	(no_connect
 		(at 339.09 215.9)
 		(uuid "ff113d94-584f-4561-adfb-f7cd3643d9a3")
-	)
-	(no_connect
-		(at 110.49 209.55)
-		(uuid "ff4ef5d4-efc6-4dd1-bd88-56605b702299")
 	)
 	(wire
 		(pts
@@ -4991,7 +4935,7 @@
 	)
 	(wire
 		(pts
-			(xy 537.21 186.69) (xy 544.83 186.69)
+			(xy 537.21 186.69) (xy 546.1 186.69)
 		)
 		(stroke
 			(width 0)
@@ -5118,6 +5062,16 @@
 			(type default)
 		)
 		(uuid "1a696bf5-1b10-4c4d-ac9b-903c892995d6")
+	)
+	(wire
+		(pts
+			(xy 537.21 184.15) (xy 537.21 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c911fd0-a0c6-46cf-b5f9-dc282fd5af8b")
 	)
 	(wire
 		(pts
@@ -5461,13 +5415,13 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 173.99) (xy 525.78 173.99)
+			(xy 525.78 173.99) (xy 534.67 173.99)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "40926db2-5cc2-421e-8c52-cad654c98111")
+		(uuid "3fd02b41-de0d-40f4-a570-84fab011d5ca")
 	)
 	(wire
 		(pts
@@ -5641,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 524.51 184.15) (xy 537.21 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5608f064-c78f-4583-b807-83b8b93b5ea2")
+	)
+	(wire
+		(pts
 			(xy 448.31 219.71) (xy 449.58 219.71)
 		)
 		(stroke
@@ -5771,6 +5735,16 @@
 	)
 	(wire
 		(pts
+			(xy 541.02 181.61) (xy 541.02 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63b69c9e-03a3-4102-9b59-eeb65418160c")
+	)
+	(wire
+		(pts
 			(xy 171.45 189.23) (xy 175.26 189.23)
 		)
 		(stroke
@@ -5818,6 +5792,16 @@
 			(type default)
 		)
 		(uuid "6c9db864-b405-493f-bd9b-2117635fef8c")
+	)
+	(wire
+		(pts
+			(xy 541.02 184.15) (xy 546.1 184.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f635d3a-38ef-4e27-91de-909dfdb42784")
 	)
 	(wire
 		(pts
@@ -5998,16 +5982,6 @@
 			(type default)
 		)
 		(uuid "870e0848-b645-41ba-b229-4d04af478146")
-	)
-	(wire
-		(pts
-			(xy 544.83 184.15) (xy 524.51 184.15)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87a52ad1-ebc9-40e0-8919-18d69549aeb3")
 	)
 	(wire
 		(pts
@@ -6211,7 +6185,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 207.01) (xy 388.62 226.06)
+			(xy 388.62 207.01) (xy 388.62 222.25)
 		)
 		(stroke
 			(width 0)
@@ -6421,7 +6395,7 @@
 	)
 	(wire
 		(pts
-			(xy 388.62 233.68) (xy 388.62 234.95)
+			(xy 388.62 222.25) (xy 388.62 224.79)
 		)
 		(stroke
 			(width 0)
@@ -6438,6 +6412,16 @@
 			(type default)
 		)
 		(uuid "b1f1a023-54c2-4293-9e88-731e5bb0b8af")
+	)
+	(wire
+		(pts
+			(xy 537.21 173.99) (xy 546.1 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b2d1fe5a-1fb6-40ac-af5a-f741113c24d2")
 	)
 	(wire
 		(pts
@@ -6531,7 +6515,17 @@
 	)
 	(wire
 		(pts
-			(xy 533.4 171.45) (xy 514.35 171.45)
+			(xy 534.67 173.99) (xy 534.67 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b879b3f2-7409-4aed-86b7-2c93f53f3f1a")
+	)
+	(wire
+		(pts
+			(xy 546.1 171.45) (xy 514.35 171.45)
 		)
 		(stroke
 			(width 0)
@@ -6821,6 +6815,16 @@
 	)
 	(wire
 		(pts
+			(xy 388.62 232.41) (xy 388.62 234.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4db41f1-4d7b-4b25-8e26-335e27918390")
+	)
+	(wire
+		(pts
 			(xy 190.5 123.19) (xy 229.87 123.19)
 		)
 		(stroke
@@ -6928,6 +6932,16 @@
 			(type default)
 		)
 		(uuid "f3d51d75-b69f-4315-878e-425221c9a05c")
+	)
+	(wire
+		(pts
+			(xy 534.67 181.61) (xy 541.02 181.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5da11ba-a8d4-4a71-900a-0fd941c28124")
 	)
 	(wire
 		(pts
@@ -7430,7 +7444,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 549.91 184.15 0)
+		(at 551.18 184.15 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7439,7 +7453,7 @@
 		(fields_autoplaced yes)
 		(uuid "1121afca-f861-4fa6-a842-13696fb0581f")
 		(property "Reference" "J9"
-			(at 551.18 184.1499 0)
+			(at 552.45 184.1499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7448,7 +7462,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 551.18 186.6899 0)
+			(at 552.45 186.6899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7457,7 +7471,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 549.91 184.15 0)
+			(at 551.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7466,7 +7480,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 549.91 184.15 0)
+			(at 551.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7475,7 +7489,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 549.91 184.15 0)
+			(at 551.18 184.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8171,6 +8185,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 209.55 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2dd04e75-9b9d-4002-867e-67f530b6de25")
+		(property "Reference" "J3"
+			(at 106.045 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09eeda5d-ef31-4cd0-ad63-1d39eb851889")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 474.98 193.04 90)
 		(unit 1)
@@ -8704,6 +8783,71 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 207.01 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "41d43947-89e4-4b51-ba47-71d58203a501")
+		(property "Reference" "J2"
+			(at 106.045 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "012fc957-4a6b-4705-816d-0db831a353ee")
+		)
+		(instances
+			(project ""
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
 		(at 364.49 181.61 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -8771,7 +8915,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x01_Socket")
-		(at 393.7 234.95 0)
+		(at 393.7 222.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8780,7 +8924,7 @@
 		(fields_autoplaced yes)
 		(uuid "431fc439-6f53-4648-bacf-29a073a0d873")
 		(property "Reference" "J12"
-			(at 394.97 233.6799 0)
+			(at 394.97 220.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8789,7 +8933,7 @@
 			)
 		)
 		(property "Value" "Conn_01x01_Socket"
-			(at 394.97 236.2199 0)
+			(at 394.97 223.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8798,7 +8942,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
-			(at 393.7 234.95 0)
+			(at 393.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8807,7 +8951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 393.7 234.95 0)
+			(at 393.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8816,7 +8960,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x01, script generated"
-			(at 393.7 234.95 0)
+			(at 393.7 222.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8831,6 +8975,73 @@
 			(project ""
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "J12")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "451df95f-85b8-45af-8c25-2c607a23c2df")
+		(property "Reference" "J22"
+			(at 177.8 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 226.0599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d30d9ab3-918b-4890-a92b-4bab6a4b952e")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J22")
 					(unit 1)
 				)
 			)
@@ -9442,6 +9653,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 214.63 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5a562e46-69a8-4198-8027-76477002e5f4")
+		(property "Reference" "J13"
+			(at 106.045 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0224a755-c6a0-431f-9e42-f3035d8484a2")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J13")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 190.5 123.19 0)
 		(unit 1)
@@ -9919,6 +10195,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 229.87 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "69f1f83a-4a84-42ff-a9aa-5f8e987da08d")
+		(property "Reference" "J23"
+			(at 177.8 228.5999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "06a91dc0-e7e5-4100-83d1-fb72233caa75")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J23")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:L")
 		(at 504.19 184.15 90)
 		(unit 1)
@@ -10048,6 +10391,73 @@
 			(project ""
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#PWR022")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "731481ba-44ee-4c81-98f1-a9c3a2852c71")
+		(property "Reference" "J24"
+			(at 177.8 231.1399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 233.6799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7256474f-e936-4cbe-bfa6-0dc84664aba6")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J24")
 					(unit 1)
 				)
 			)
@@ -11720,6 +12130,71 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 212.09 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a1b6efc9-92d4-4dc4-8d25-f965f6cd49a8")
+		(property "Reference" "J4"
+			(at 106.045 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1480d9e8-ec0a-4d86-a276-3a9d5276380d")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 359.41 173.99 0)
 		(unit 1)
@@ -11930,35 +12405,33 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 388.62 229.87 0)
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 229.87 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ac04e83c-38c7-479e-91fd-d881725cee4e")
-		(property "Reference" "R7"
-			(at 391.16 228.5999 0)
+		(uuid "aa4be7f7-885e-4218-a223-2c7dbae19231")
+		(property "Reference" "J17"
+			(at 106.045 224.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "10k"
-			(at 391.16 231.1399 0)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 386.842 229.87 90)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 229.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11967,7 +12440,74 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 388.62 229.87 0)
+			(at 105.41 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f308f0e3-8760-4164-83b8-7df15caba7d8")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 388.62 228.6 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ac04e83c-38c7-479e-91fd-d881725cee4e")
+		(property "Reference" "R7"
+			(at 391.16 227.3299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 391.16 229.8699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 386.842 228.6 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 388.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11976,7 +12516,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 388.62 229.87 0)
+			(at 388.62 228.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12350,6 +12890,73 @@
 			(project ""
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C28")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 207.01 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b7878187-fab1-4904-a490-97d1feb6ebd1")
+		(property "Reference" "J19"
+			(at 177.8 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 208.2799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "362d35fe-dde7-44af-9ed6-134028564230")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J19")
 					(unit 1)
 				)
 			)
@@ -13737,6 +14344,73 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 219.71 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ce4d98b8-fc43-472d-8961-37ed5e29c82f")
+		(property "Reference" "J20"
+			(at 177.8 218.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "011eaa41-00cb-4f01-8e81-b1ed4dd2ed2f")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C")
 		(at 241.3 224.79 180)
 		(unit 1)
@@ -13800,6 +14474,73 @@
 			(project ""
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 204.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d6a200f5-eff5-4873-9690-7cd5f1f54a67")
+		(property "Reference" "J18"
+			(at 177.8 203.1999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 205.7399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 204.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5796b0a6-4e60-43dc-ae46-920d5ed604f8")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J18")
 					(unit 1)
 				)
 			)
@@ -14279,7 +15020,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 538.48 171.45 0)
+		(at 551.18 171.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -14288,7 +15029,7 @@
 		(fields_autoplaced yes)
 		(uuid "e2a01e14-c157-4862-a24e-d3d0b3864e4d")
 		(property "Reference" "J8"
-			(at 539.75 171.4499 0)
+			(at 552.45 171.4499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14297,7 +15038,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 539.75 173.9899 0)
+			(at 552.45 173.9899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14306,7 +15047,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 538.48 171.45 0)
+			(at 551.18 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14315,7 +15056,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 538.48 171.45 0)
+			(at 551.18 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14324,7 +15065,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 538.48 171.45 0)
+			(at 551.18 171.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14412,6 +15153,71 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C37")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 217.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e44b8dc9-6302-4289-8938-282368fb1721")
+		(property "Reference" "J14"
+			(at 106.045 212.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "36cfc329-2a1f-45df-8e6d-cf86315af0b4")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J14")
 					(unit 1)
 				)
 			)
@@ -14686,6 +15492,73 @@
 			(project ""
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 176.53 222.25 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ecec91c2-973e-420a-b3ac-c14b0f3bcaa6")
+		(property "Reference" "J21"
+			(at 177.8 220.9799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 177.8 223.5199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 176.53 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 176.53 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a4b07878-525c-459a-bd4d-4fc499b6d592")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J21")
 					(unit 1)
 				)
 			)
@@ -15020,6 +15893,71 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#PWR057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:Conn_01x01_Socket")
+		(at 105.41 227.33 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f899183b-2fe0-4e2d-8c74-4efb78dea913")
+		(property "Reference" "J16"
+			(at 106.045 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x01_Socket"
+			(at 106.045 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical"
+			(at 105.41 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 105.41 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated"
+			(at 105.41 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "34cdb013-cb67-4039-8433-a1d2170b0724")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J16")
 					(unit 1)
 				)
 			)
