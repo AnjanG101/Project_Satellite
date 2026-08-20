@@ -5595,6 +5595,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 198.12) (xy 107.95 198.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2f9321f8-094c-44ec-8620-2e91a308937a")
+	)
+	(wire
+		(pts
 			(xy 265.43 130.81) (xy 256.54 130.81)
 		)
 		(stroke
@@ -6085,6 +6095,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 195.58) (xy 109.22 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60d73cbf-45dc-48ff-9860-473aee71dbe7")
+	)
+	(wire
+		(pts
 			(xy 256.54 130.81) (xy 256.54 151.13)
 		)
 		(stroke
@@ -6262,6 +6282,16 @@
 			(type default)
 		)
 		(uuid "73d2f7af-cca0-4bcb-9adb-cc84fbe8e0af")
+	)
+	(wire
+		(pts
+			(xy 109.22 195.58) (xy 109.22 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "740038f7-cc29-484a-a67d-407fb23a5e41")
 	)
 	(wire
 		(pts
@@ -7105,6 +7135,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 198.12) (xy 107.95 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2af48b1-35a5-46bf-83e1-d67268ec557d")
+	)
+	(wire
+		(pts
 			(xy 445.77 165.1) (xy 445.77 168.91)
 		)
 		(stroke
@@ -7115,6 +7155,16 @@
 	)
 	(wire
 		(pts
+			(xy 107.95 204.47) (xy 110.49 204.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6093876-db9f-4138-a9fa-733c09fc14bd")
+	)
+	(wire
+		(pts
 			(xy 187.96 184.15) (xy 193.04 184.15)
 		)
 		(stroke
@@ -7122,6 +7172,16 @@
 			(type default)
 		)
 		(uuid "d735b2b3-9401-4692-84ad-14e03e9fdf3e")
+	)
+	(wire
+		(pts
+			(xy 109.22 201.93) (xy 110.49 201.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d75a4017-11a0-4f02-ab76-62fb71c42637")
 	)
 	(wire
 		(pts
@@ -7482,26 +7542,6 @@
 			(justify left bottom)
 		)
 		(uuid "8629e6d6-16ed-4d20-a5f7-66ce50edab1f")
-	)
-	(label "MICBIAS"
-		(at 273.05 255.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "e795a112-d586-48fa-a5b9-fd577b5e6b48")
-	)
-	(label "MICBIAS"
-		(at 292.1 255.27 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f768f247-38d6-4655-b265-ce9e0dbb1905")
 	)
 	(symbol
 		(lib_id "Device:C")
@@ -8252,7 +8292,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x02_Socket")
-		(at 105.41 204.47 180)
+		(at 95.25 198.12 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8261,7 +8301,7 @@
 		(fields_autoplaced yes)
 		(uuid "1e68a892-8b57-4aa1-a277-9b784ebb6f5a")
 		(property "Reference" "J5"
-			(at 106.045 196.85 0)
+			(at 95.885 190.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8269,7 +8309,7 @@
 			)
 		)
 		(property "Value" "Conn_01x02_Socket"
-			(at 106.045 199.39 0)
+			(at 95.885 193.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +8317,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
-			(at 105.41 204.47 0)
+			(at 95.25 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8286,7 +8326,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 105.41 204.47 0)
+			(at 95.25 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8295,7 +8335,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 105.41 204.47 0)
+			(at 95.25 198.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)

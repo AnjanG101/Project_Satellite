@@ -500,7 +500,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "V1_Fabrication/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
