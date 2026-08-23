@@ -1,4 +1,4 @@
-27293634970778271
+27250104370876034
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -54166,6 +54166,13 @@ USB 3.0 Micro B SMD right angle
 16
 11
 Connector_USB
+USBCSMD
+
+
+0
+6
+6
+Connector_USB
 USB_A_CNCTech_1001-011-01101_Horizontal
 USB type A Plug, Horizontal, http://cnctech.us/pdfs/1001-011-01101.pdf
 USB-A
@@ -54451,7 +54458,7 @@ USB Type-C receptacle for USB 2.0, 6 pin, https://omo-oss-file.thefastfile.com/p
 usb usb-c 2.0 pd
 0
 10
-7
+6
 Connector_USB
 USB_C_Receptacle_JAE_DX07S016JA1R1500
 USB TYPE C, USB 2.0, SMT, https://www.jae.com/en/connectors/series/detail/product/id=91780
@@ -58093,13 +58100,6 @@ DCDC SMD
 7
 7
 Converter_DCDC
-Converter_DCDC_Murata_MYRxP
-Murata MYRxP PicoBK DC/DC converter with inductor, 2x2.5mm, height 1.04mm. https://www.murata.com/en-global/products/power/nonisolated-dc-dc-converter/overview/lineup/picobk
-PicoBK DC/DC MYRBP MYRGP MYRLP
-0
-19
-9
-Converter_DCDC
 Converter_DCDC_Murata_NCS1SxxxxSC_THT
 Murata NCS1SxxxxSC, https://power.murata.com/data/power/ncl/kdc_ncs1.pdf, generated with kicad-footprint-generator StandardBox_generator.py
 Murata NCS1SxxxxSC
@@ -58827,6 +58827,13 @@ muRata MEJ1S DCDC-Converter
 0
 4
 4
+Converter_DCDC
+PMOS
+Murata MYRxP PicoBK DC/DC converter with inductor, 2x2.5mm, height 1.04mm. https://www.murata.com/en-global/products/power/nonisolated-dc-dc-converter/overview/lineup/picobk
+PicoBK DC/DC MYRBP MYRGP MYRLP
+0
+19
+9
 Crystal
 Crystal_AT310_D3.0mm_L10.0mm_Horizontal
 AT310, Crystal, with length tolerance, length 10.5mm, width 3.0mm, THT, https://www.cinetech.com.tw/upload/2011/04/20110401165201.pdf
