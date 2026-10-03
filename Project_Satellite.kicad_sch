@@ -4590,6 +4590,12 @@
 		(uuid "14d378a8-ce2d-415b-a9f1-7bfabf3518b6")
 	)
 	(junction
+		(at 173.99 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1527211a-9f37-4622-9dc9-82fe3b1ceec2")
+	)
+	(junction
 		(at 179.07 255.27)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5038,10 +5044,6 @@
 		(uuid "33cf6719-9ea4-4917-9955-2f4de1891eaa")
 	)
 	(no_connect
-		(at 171.45 194.31)
-		(uuid "36ebeeae-ee0f-45f2-ab63-92ce206ebaa0")
-	)
-	(no_connect
 		(at 265.43 125.73)
 		(uuid "3fd59123-765d-4d6b-a0cf-5b30de0e9e5e")
 	)
@@ -5136,10 +5138,6 @@
 	(no_connect
 		(at 110.49 207.01)
 		(uuid "d892fa51-c67a-4384-bc76-5a1ae3addec7")
-	)
-	(no_connect
-		(at 171.45 196.85)
-		(uuid "e0c15c97-a64c-4830-b01e-0997e17416a9")
 	)
 	(no_connect
 		(at 339.09 203.2)
@@ -5246,6 +5244,16 @@
 			(type default)
 		)
 		(uuid "07289c56-f1bb-4b46-86a4-e6e275f9cc2e")
+	)
+	(wire
+		(pts
+			(xy 171.45 194.31) (xy 173.99 194.31)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07696a99-727d-4836-ac00-9724cb6870cc")
 	)
 	(wire
 		(pts
@@ -7179,6 +7187,26 @@
 	)
 	(wire
 		(pts
+			(xy 173.99 194.31) (xy 173.99 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b64bdaf0-f2c2-436d-b3a7-e93eb5e9d8f9")
+	)
+	(wire
+		(pts
+			(xy 173.99 196.85) (xy 171.45 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b65d1186-e446-47d3-a26c-6f8bd73983ef")
+	)
+	(wire
+		(pts
 			(xy 402.59 195.58) (xy 402.59 193.04)
 		)
 		(stroke
@@ -7706,6 +7734,16 @@
 			(type default)
 		)
 		(uuid "f16e8bff-1184-4cfb-859b-d5ea3a31f60a")
+	)
+	(wire
+		(pts
+			(xy 173.99 195.58) (xy 173.99 196.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f28f6c4b-cf2c-41d9-9d8c-334632102b8e")
 	)
 	(wire
 		(pts
@@ -8524,7 +8562,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.50mm"
 			(at 207.9752 228.6 0)
 			(effects
 				(font
@@ -12005,70 +12043,6 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#PWR014")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:TestPoint")
-		(at 205.74 128.27 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8717cd50-a15c-4255-92df-a20d46c503b5")
-		(property "Reference" "TP4"
-			(at 197.866 128.524 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "TestPoint"
-			(at 198.628 130.556 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_PinHeader_2.00mm:PinHeader_1x01_P2.00mm_Vertical"
-			(at 205.74 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 205.74 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "test point"
-			(at 205.74 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3476e48c-ea64-4d43-97f4-4512f8a918cd")
-		)
-		(instances
-			(project "Project_Satellite"
-				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
-					(reference "TP4")
 					(unit 1)
 				)
 			)
@@ -16638,6 +16612,73 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 173.99 195.58 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f40065cd-97e8-4d27-b139-738e2062d8f6")
+		(property "Reference" "#PWR021"
+			(at 170.18 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 177.8 195.5799 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 173.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 173.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 173.99 195.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "76f3425e-e1e8-45a6-af51-aa6ab9ee3024")
+		)
+		(instances
+			(project ""
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
