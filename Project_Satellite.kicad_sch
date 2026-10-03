@@ -7875,7 +7875,7 @@
 		)
 		(uuid "9c09ab72-ed97-4542-af5a-0bf86ecd8815")
 	)
-	(label "SDZ"
+	(label "RESET"
 		(at 171.45 207.01 0)
 		(effects
 			(font
@@ -7885,7 +7885,7 @@
 		)
 		(uuid "b49ca2a8-c74e-4a78-bb65-5f9d87e24714")
 	)
-	(label "MUTE"
+	(label "SDZ"
 		(at 171.45 219.71 0)
 		(effects
 			(font
@@ -7895,7 +7895,7 @@
 		)
 		(uuid "cd27329e-1922-46d7-9293-5e5e1e8d5585")
 	)
-	(label "RESET"
+	(label "MUTE"
 		(at 171.45 204.47 0)
 		(effects
 			(font
@@ -8359,7 +8359,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_JST:JST_XH_B2B-XH-A_1x02_P2.50mm_Vertical"
+		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical"
 			(at 200.66 125.73 0)
 			(effects
 				(font
@@ -13865,7 +13865,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "a9cfa260-f4b0-48d9-a2b2-5867a3f2472f")
 		(property "Reference" "R14"
 			(at 353.06 171.45 90)
