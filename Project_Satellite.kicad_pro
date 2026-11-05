@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.254,
-          "height": 0.508,
-          "width": 0.508
+          "drill": 0.0,
+          "height": 3.24,
+          "width": 1.31
         },
         "silk_line_width": 0.1,
         "silk_text_italic": false,
@@ -58,7 +58,32 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        [
+          "clearance|125200000|77830000|c5083d2b-22fb-4c31-a41f-a82c5b3e9d24|f816f149-9ebd-43f9-9dd6-703a6bacb67f",
+          ""
+        ],
+        [
+          "clearance|125200000|78330000|f816f149-9ebd-43f9-9dd6-703a6bacb67f|498d37ab-8a22-4492-89fc-e81d240cc5b0",
+          ""
+        ],
+        [
+          "clearance|125200000|78830000|498d37ab-8a22-4492-89fc-e81d240cc5b0|14fe0c0b-6bfd-4a3a-9988-e7fe9709dbed",
+          ""
+        ],
+        [
+          "clearance|126670000|78010000|f5814ad6-c6bc-44c4-b8c9-98b19a8ebbda|1c950daa-d40c-47fe-84f9-4c50a39373ac",
+          ""
+        ],
+        [
+          "clearance|126670000|78510000|98c6750c-2989-4721-a7c5-85486ff47e8f|f5814ad6-c6bc-44c4-b8c9-98b19a8ebbda",
+          ""
+        ],
+        [
+          "clearance|126670000|79010000|51fff9a5-9909-49d2-80ba-dcc2f43e7a96|98c6750c-2989-4721-a7c5-85486ff47e8f",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },

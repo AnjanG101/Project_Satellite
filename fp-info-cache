@@ -1,4 +1,4 @@
-27250116433231975
+27255506622318703
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -74662,6 +74662,13 @@ threaded screw
 4
 1
 MyFootprints
+AMS1117-3.3
+
+
+0
+4
+4
+MyFootprints
 MEMSMic
 
 
@@ -74682,6 +74689,20 @@ TPA3118
 0
 33
 33
+MyFootprints
+TPA3118_test
+
+
+0
+33
+33
+MyFootprints
+TPS62933
+
+
+0
+8
+8
 NetTie
 NetTie-2_SMD_Pad0.5mm
 Net tie, 2 pin, 0.5mm square SMD pads
