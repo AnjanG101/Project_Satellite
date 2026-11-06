@@ -4145,6 +4145,12 @@
 		(uuid "85320290-0635-4a49-bb42-59169dfdb49e")
 	)
 	(junction
+		(at 397.51 241.3)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8bc8bf1d-ab7b-4ef5-9607-0d0f525d48a8")
+	)
+	(junction
 		(at 318.77 205.74)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6994,18 +7000,8 @@
 		)
 		(uuid "1aa7e218-bfc9-4b03-abcd-36a31acd964a")
 	)
-	(label "GND"
-		(at 236.22 262.89 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4601bc66-66b6-433e-883c-0d6ea9c2ded7")
-	)
 	(label "MICBIAS"
-		(at 179.07 264.16 0)
+		(at 173.99 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7025,12 +7021,12 @@
 		(uuid "5b20ae49-5dc0-4c71-800f-049c542c4f94")
 	)
 	(label "SCL"
-		(at 238.76 262.89 90)
+		(at 232.41 264.16 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "61dc242c-14b0-4e29-a412-33a805302687")
 	)
@@ -7075,7 +7071,7 @@
 		(uuid "9de58567-6c78-44c7-b1b9-ea32add670a3")
 	)
 	(label "RESET"
-		(at 243.84 262.89 0)
+		(at 237.49 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7085,7 +7081,7 @@
 		(uuid "e8825e45-cac8-4bfa-9628-dbc57c9039ee")
 	)
 	(label "MICBIAS"
-		(at 212.09 264.16 0)
+		(at 207.01 264.16 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7095,7 +7091,7 @@
 		(uuid "ecade766-b441-44ac-a490-042f91d25912")
 	)
 	(label "SDA"
-		(at 241.3 262.89 90)
+		(at 234.95 264.16 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7655,7 +7651,7 @@
 			(uuid "7147432b-3338-4689-a0f0-61a4796dea00")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C49")
 					(unit 1)
@@ -9208,7 +9204,7 @@
 			(uuid "da99fdcb-08a8-48f3-8bf4-7cd72d9bf15d")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C1")
 					(unit 1)
@@ -9278,7 +9274,7 @@
 			(uuid "ae32befd-fa14-49d3-951d-7c07242b4255")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "J7")
 					(unit 1)
@@ -9413,7 +9409,7 @@
 			(uuid "8c3cbc17-70ba-4409-80dd-3990ced350dc")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C12")
 					(unit 1)
@@ -9612,7 +9608,7 @@
 			(uuid "73fd99c6-3977-46e5-ab70-33caac99176a")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C48")
 					(unit 1)
@@ -10092,7 +10088,7 @@
 			(uuid "1043f036-205a-4ae1-9c19-6d870fe9c09f")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "J5")
 					(unit 1)
@@ -10698,7 +10694,7 @@
 			(uuid "718401a9-9c87-46e1-b938-66bdea4d3ddf")
 		)
 		(instances
-			(project ""
+			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#PWR020")
 					(unit 1)
@@ -11312,80 +11308,6 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector:Conn_01x04_Socket")
-		(at 241.3 267.97 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "71e1a8d5-3dba-4139-b7dd-46556451acfc")
-		(property "Reference" "J8"
-			(at 240.03 270.51 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Conn_01x04_Socket"
-			(at 240.03 273.05 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_XH_B4B-XH-A_1x04_P2.50mm_Vertical"
-			(at 241.3 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 241.3 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 241.3 267.97 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f662168b-4489-4ed0-bb13-49203c9d9d28")
-		)
-		(pin "2"
-			(uuid "c81265b3-9913-48dd-bb45-64cf00fa352c")
-		)
-		(pin "3"
-			(uuid "d20da27e-041a-4a33-864a-45ea75b08973")
-		)
-		(pin "4"
-			(uuid "9d69af04-22d4-4707-ba36-ef93c6dc78ca")
-		)
-		(instances
-			(project ""
-				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
-					(reference "J8")
 					(unit 1)
 				)
 			)
@@ -12367,6 +12289,77 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x03_Socket")
+		(at 234.95 269.24 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "90dc22a4-6284-4fc9-9060-0877c744542a")
+		(property "Reference" "J6"
+			(at 234.95 271.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x03_Socket"
+			(at 234.95 274.32 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_XH_B3B-XH-A_1x03_P2.50mm_Vertical"
+			(at 234.95 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 234.95 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 234.95 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "a0025bff-af2a-44bf-8d06-849e79f64146")
+		)
+		(pin "2"
+			(uuid "6d036d84-df84-4c24-bb09-6be3d478bf07")
+		)
+		(pin "1"
+			(uuid "7d6f0a63-9b58-47c0-940c-37a2bd349ac2")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 424.18 228.6 270)
 		(unit 1)
@@ -12639,74 +12632,6 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "C20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 176.53 264.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9679a270-9dbc-4abc-9dcb-92696608d369")
-		(property "Reference" "C47"
-			(at 176.5363 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 176.5363 260.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 176.53 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 176.53 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 176.53 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cbb7f49f-180e-4eb3-9427-358d94d9ceca")
-		)
-		(pin "2"
-			(uuid "07ceec81-f92d-4a55-9efe-efe758c4f435")
-		)
-		(instances
-			(project "Project_Satellite"
-				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
-					(reference "C47")
 					(unit 1)
 				)
 			)
@@ -15193,6 +15118,73 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+15V")
+		(at 397.51 241.3 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "dafc1de4-f10c-4e3a-bab7-4a110e63bb1d")
+		(property "Reference" "#PWR021"
+			(at 393.7 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+15V"
+			(at 401.32 241.2999 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 397.51 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 397.51 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+15V\""
+			(at 397.51 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "256fb56b-b7c4-432d-9a6c-0dd6f7192770")
+		)
+		(instances
+			(project "Project_Satellite"
+				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
+					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 375.92 205.74 90)
 		(unit 1)
@@ -16064,74 +16056,6 @@
 			(project "Project_Satellite"
 				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
 					(reference "#FLG07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 209.55 264.16 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ffdcbf2f-765f-4c67-8b78-dc0aee763710")
-		(property "Reference" "C16"
-			(at 209.5563 257.81 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 209.5563 260.35 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 209.55 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 209.55 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 209.55 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "1f41d6c7-d0dd-427f-9b82-6a8527fb361f")
-		)
-		(pin "2"
-			(uuid "a67cc62b-2c81-49c0-a030-b361e3b5c9b4")
-		)
-		(instances
-			(project "Project_Satellite"
-				(path "/09bbc44e-8029-468d-a6fc-2a31dfd55e08"
-					(reference "C16")
 					(unit 1)
 				)
 			)

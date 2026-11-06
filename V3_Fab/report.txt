@@ -1,0 +1,6 @@
+Front (top side) placement file: '/home/anjang/Desktop/Project_Satellite/V3_Fab/Project_Satellite-top-pos.csv'.
+Info: Component count: 44.
+Back (bottom side) placement file: '/home/anjang/Desktop/Project_Satellite/V3_Fab/Project_Satellite-bottom-pos.csv'.
+Info: Component count: 35.
+Info: Full component count: 79.
+Info: Done.
